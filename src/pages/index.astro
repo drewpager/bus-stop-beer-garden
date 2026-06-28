@@ -1,0 +1,166 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const stops = await getCollection('stops');
+const mainStop = stops[0];
+const base = import.meta.env.BASE_URL;
+
+const navCards = [
+  {
+    href: `${base}/menu`,
+    title: 'Menu',
+    desc: 'Craft beers on tap — from hoppy IPAs to smooth stouts.',
+    icon: '🍺',
+  },
+  {
+    href: `${base}/stops`,
+    title: 'Stops',
+    desc: 'Find us and plan your visit — hours, address, and directions.',
+    icon: '📍',
+  },
+  {
+    href: `${base}/gardens`,
+    title: 'Gardens',
+    desc: 'Shop our selection of succulents and plants to take home.',
+    icon: '🌵',
+  },
+  {
+    href: `${base}/events`,
+    title: 'Events',
+    desc: 'Trivia nights, live music, plant swaps, and more.',
+    icon: '🎉',
+  },
+  {
+    href: `${base}/charter`,
+    title: 'Charter',
+    desc: 'Rent the bus for your private party or special event.',
+    icon: '🚌',
+  },
+  {
+    href: `${base}/contact`,
+    title: 'Contact',
+    desc: 'Get in touch with questions, feedback, or just to say hi.',
+    icon: '✉️',
+  },
+];
+---
+
+<Layout title="Home">
+  <!-- Hero -->
+  <section class="relative bg-[#2D5016] min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <!-- Gradient overlay for depth -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#1e3810] via-[#2D5016] to-[#3a6b1e] opacity-90"></div>
+
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <!-- Bus logo large -->
+      <div class="flex justify-center mb-8">
+        <svg width="120" height="70" viewBox="0 0 48 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="4" width="40" height="18" rx="3" fill="#FCC200"/>
+          <rect x="38" y="6" width="7" height="12" rx="2" fill="#FCC200"/>
+          <rect x="6" y="7" width="7" height="6" rx="1" fill="#2D5016"/>
+          <rect x="16" y="7" width="7" height="6" rx="1" fill="#2D5016"/>
+          <rect x="26" y="7" width="7" height="6" rx="1" fill="#2D5016"/>
+          <rect x="40" y="8" width="4" height="5" rx="1" fill="#2D5016"/>
+          <rect x="34" y="14" width="4" height="7" rx="1" fill="#2D5016"/>
+          <circle cx="10" cy="23" r="4" fill="#2D5016"/>
+          <circle cx="10" cy="23" r="2" fill="#FCC200"/>
+          <circle cx="34" cy="23" r="4" fill="#2D5016"/>
+          <circle cx="34" cy="23" r="2" fill="#FCC200"/>
+          <rect x="2" y="21" width="5" height="3" rx="1" fill="#2D5016"/>
+        </svg>
+      </div>
+
+      <h1 class="text-[#FCC200] text-5xl sm:text-7xl font-extrabold tracking-tight leading-tight mb-4">
+        Bus Stop<br/>Beer Garden
+      </h1>
+      <p class="text-yellow-200 text-xl sm:text-2xl mb-10 font-light tracking-wide">
+        Cold Beer. Fresh Plants. Good Vibes.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href={`${base}/menu`}
+          class="bg-[#FCC200] text-[#2D5016] font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition-colors shadow-lg"
+        >
+          View Menu
+        </a>
+        <a
+          href={`${base}/charter`}
+          class="border-2 border-[#FCC200] text-[#FCC200] font-bold px-8 py-4 rounded-lg text-lg hover:bg-[#FCC200] hover:text-[#2D5016] transition-colors"
+        >
+          Rent the Bus
+        </a>
+      </div>
+    </div>
+
+    <!-- Decorative bottom wave -->
+    <div class="absolute bottom-0 left-0 right-0">
+      <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 60L1440 60L1440 20C1200 60 960 0 720 20C480 40 240 0 0 20L0 60Z" fill="white"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="max-w-4xl mx-auto px-4 py-20 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold text-[#2D5016] mb-6">Our Story</h2>
+    <p class="text-gray-700 text-lg leading-relaxed max-w-2xl mx-auto mb-4">
+      We took a 1972 school bus and transformed it into something Austin had never seen before: a fully stocked craft beer bar surrounded by a lush, thriving garden. Whether you're sipping a pint under the string lights or browsing our plant nursery, Bus Stop is your neighborhood escape.
+    </p>
+    <p class="text-gray-600 text-base leading-relaxed max-w-2xl mx-auto">
+      From live music Fridays to our beloved plant swaps, there's always something happening at the Stop. Come for the beer, stay for the vibes.
+    </p>
+  </section>
+
+  <!-- Location Preview -->
+  {mainStop && (
+    <section class="bg-[#2D5016] text-[#FCC200] py-16">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-8">Find Us</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left max-w-2xl mx-auto">
+          <div>
+            <h3 class="font-semibold text-lg mb-2 text-yellow-200">Address</h3>
+            <p class="text-yellow-100/80">{mainStop.data.address}</p>
+            <p class="text-yellow-100/80 mt-1">{mainStop.data.phone}</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg mb-2 text-yellow-200">Hours</h3>
+            <p class="text-yellow-100/80 whitespace-pre-line">
+              {mainStop.data.hours.split(', ').join('\n')}
+            </p>
+          </div>
+        </div>
+        <a href={`${base}/stops`} class="inline-block mt-8 bg-[#FCC200] text-[#2D5016] font-bold px-6 py-3 rounded-lg hover:bg-yellow-300 transition-colors">
+          Get Directions
+        </a>
+      </div>
+    </section>
+  )}
+
+  <!-- Page Cards -->
+  <section class="max-w-7xl mx-auto px-4 py-20">
+    <h2 class="text-3xl sm:text-4xl font-bold text-[#2D5016] mb-10 text-center">Everything at the Stop</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {navCards.map(card => (
+        <a
+          href={card.href}
+          class="group border-2 border-gray-100 rounded-xl p-6 hover:border-[#FCC200] hover:shadow-lg transition-all duration-200 bg-white"
+        >
+          <div class="text-4xl mb-3">{card.icon}</div>
+          <h3 class="text-xl font-bold text-[#2D5016] mb-2 group-hover:text-[#FCC200] transition-colors">{card.title}</h3>
+          <p class="text-gray-600 text-sm">{card.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Instagram Placeholder -->
+  <section class="max-w-7xl mx-auto px-4 pb-20">
+    <h2 class="text-2xl font-bold text-[#2D5016] mb-6 text-center">Follow @beerbusstop</h2>
+    <div class="bg-gray-100 rounded-xl p-12 text-center text-gray-400 border-2 border-dashed border-gray-200">
+      <!-- Behold.so Instagram embed goes here -->
+      <p class="text-lg">📸 Instagram feed coming soon</p>
+      <p class="text-sm mt-1">Follow us at <a href="https://instagram.com/beerbusstop" target="_blank" rel="noopener noreferrer" class="text-[#2D5016] hover:underline">@beerbusstop</a></p>
+    </div>
+  </section>
+</Layout>

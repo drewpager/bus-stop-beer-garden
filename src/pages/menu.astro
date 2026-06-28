@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const beers = await getCollection('menu');
+beers.sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<Layout title="Menu">
+  <!-- Hero Banner -->
+  <div class="bg-[#2D5016] py-16 px-4 text-center">
+    <h1 class="text-[#FCC200] text-5xl font-extrabold mb-3">On Tap</h1>
+    <p class="text-yellow-200/80 text-lg max-w-xl mx-auto">Craft beers curated from local Austin breweries and beyond.</p>
+  </div>
+
+  <!-- Beer Grid -->
+  <section class="max-w-7xl mx-auto px-4 py-16">
+    {beers.length === 0 ? (
+      <p class="text-center text-gray-500">No beers on the menu right now. Check back soon!</p>
+    ) : (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {beers.map(beer => (
+          <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-[#FCC200] transition-all duration-200 overflow-hidden">
+            <!-- Color bar -->
+            <div class="h-2 bg-gradient-to-r from-[#2D5016] to-[#FCC200]"></div>
+            <div class="p-6">
+              <h2 class="text-xl font-bold text-[#2D5016] mb-1">{beer.data.name}</h2>
+              <p class="text-sm text-[#FCC200] font-semibold mb-3">{beer.data.style}</p>
+
+              <div class="flex items-center justify-between text-sm text-gray-600 mb-3 bg-gray-50 rounded-lg px-3 py-2">
+                <span>
+                  <span class="font-medium">{beer.data.size}</span>
+                </span>
+                <span>
+                  <span class="font-medium">{beer.data.abv}%</span> ABV
+                </span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="text-2xl font-extrabold text-[#2D5016]">${beer.data.price}</span>
+                <span class="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded-full">per pour</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    )}
+  </section>
+
+  <!-- Note -->
+  <div class="max-w-7xl mx-auto px-4 pb-16 text-center">
+    <p class="text-gray-500 text-sm">Tap list rotates seasonally. Ask your bartender about today's specials.</p>
+    <p class="text-gray-400 text-xs mt-1">Must be 21+ to purchase alcohol. Please drink responsibly.</p>
+  </div>
+</Layout>
