@@ -1,6 +1,6 @@
 ---
-title: "Bus Stop 2nd Birthday Bash"
-date: "2026-08-09"
+title: "Bus Stop Opening Night"
+date: "2026-07-01"
 time: "4:00 PM"
-description: "Help us celebrate 2 years of cold beer and good vibes! Special release beers, food trucks, live music, and big giveaways all night long."
+description: "Help us celebrate the birth of a new Modesto institution - the Bus Stop Beer Garden opens on July 1st! Please bring your thirst for cold beer and find your assigned seat on our short bus."
 ---
