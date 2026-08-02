@@ -4,6 +4,7 @@ style: Hefeweizen
 size: 16 oz
 abv: 5.2
 price: 6
+available: false
 order: 2
 ---
 
