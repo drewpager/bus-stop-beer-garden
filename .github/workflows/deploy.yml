@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Rebuild nightly so past events drop off the Happenings page on their own.
+  schedule:
+    - cron: '0 10 * * *'
 
 permissions:
   contents: read

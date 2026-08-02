@@ -8,6 +8,8 @@ const menu = defineCollection({
     size: z.string(),
     abv: z.number(),
     price: z.number(),
+    available: z.boolean().default(true),
+    order: z.number().default(0),
   }),
 });
 

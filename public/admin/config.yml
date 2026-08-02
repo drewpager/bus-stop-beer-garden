@@ -2,6 +2,10 @@ backend:
   name: github
   repo: drewpager/bus-stop-beer-garden
   branch: main
+  # Sign in with GitHub requires an OAuth relay, since GitHub Pages can't run
+  # one. Deploy sveltia-cms-auth to Cloudflare Workers, then uncomment this and
+  # set it to the Worker URL. See CMS.md. Until then, use "Sign in with Token".
+  # base_url: https://YOUR-WORKER.workers.dev
 
 media_folder: public/images
 public_folder: /images
@@ -18,6 +22,8 @@ collections:
       - { label: Size, name: size, widget: string }
       - { label: ABV, name: abv, widget: number, value_type: float }
       - { label: Price, name: price, widget: number, value_type: int }
+      - { label: Currently on tap, name: available, widget: boolean, default: true, hint: "Turn off to show as Tapped Out without deleting it." }
+      - { label: Sort order, name: order, widget: number, value_type: int, default: 0, hint: "Lower numbers appear first. Ties fall back to alphabetical." }
       - { label: Description, name: body, widget: markdown, required: false }
 
   - name: events
