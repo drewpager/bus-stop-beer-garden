@@ -5,7 +5,7 @@ backend:
   # Sign in with GitHub requires an OAuth relay, since GitHub Pages can't run
   # one. Deploy sveltia-cms-auth to Cloudflare Workers, then uncomment this and
   # set it to the Worker URL. See CMS.md. Until then, use "Sign in with Token".
-  # base_url: https://YOUR-WORKER.workers.dev
+  base_url: https://sveltia-cms-auth.busstopbeer.workers.dev
 
 media_folder: public/images
 public_folder: /images
