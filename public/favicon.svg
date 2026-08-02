@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Bus Stop Beer Garden">
+  <rect width="32" height="32" rx="6" fill="#2D5016"/>
+  <!-- Bus body and nose, reframed from the hero logo in src/pages/index.astro -->
+  <rect x="3" y="8.5" width="21" height="11.5" rx="2.5" fill="#FCC200"/>
+  <rect x="22" y="11" width="7" height="9" rx="2" fill="#FCC200"/>
+  <!-- Windows -->
+  <rect x="5.2" y="10.7" width="4.6" height="4.2" rx="0.9" fill="#2D5016"/>
+  <rect x="11" y="10.7" width="4.6" height="4.2" rx="0.9" fill="#2D5016"/>
+  <rect x="16.8" y="10.7" width="4.6" height="4.2" rx="0.9" fill="#2D5016"/>
+  <rect x="24.2" y="12.4" width="3.4" height="3.4" rx="0.8" fill="#2D5016"/>
+  <!-- Wheels -->
+  <circle cx="9" cy="21.5" r="3.2" fill="#2D5016"/>
+  <circle cx="9" cy="21.5" r="1.4" fill="#FCC200"/>
+  <circle cx="22" cy="21.5" r="3.2" fill="#2D5016"/>
+  <circle cx="22" cy="21.5" r="1.4" fill="#FCC200"/>
+</svg>
