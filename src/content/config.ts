@@ -17,7 +17,12 @@ const events = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    date: z.string(),
+    // The CMS writes the date unquoted, which YAML parses as a Date, while
+    // hand-written entries quote it. Accept either and normalize to
+    // YYYY-MM-DD, which is what happenings.astro compares and formats.
+    date: z
+      .union([z.string(), z.date()])
+      .transform(value => (typeof value === 'string' ? value : value.toISOString().slice(0, 10))),
     time: z.string(),
     description: z.string(),
   }),
