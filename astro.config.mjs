@@ -3,6 +3,6 @@ import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
   site: 'https://drewpager.github.io',
-  base: '/bus-stop-beer-garden',
+  base: '/',
   integrations: [tailwind()],
 });
