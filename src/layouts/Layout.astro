@@ -9,8 +9,9 @@ const navLinks = [
   { href: `${base}/menu`, label: 'Menu' },
   { href: `${base}/stops`, label: 'Stops' },
   { href: `${base}/gardens`, label: 'Gardens' },
-  { href: `${base}/events`, label: 'Events' },
-  { href: `${base}/charter`, label: 'Charter' },
+  { href: `${base}/happenings`, label: 'Happenings' },
+  // Charter paused — restore when bus rentals resume
+  // { href: `${base}/charter`, label: 'Charter' },
   { href: `${base}/contact`, label: 'Contact' },
 ];
 ---
@@ -20,7 +21,7 @@ const navLinks = [
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title} | Bus Stop Beer Garden</title>
-  <meta name="description" content="Bus Stop Beer Garden — Cold Beer. Fresh Plants. Good Vibes. Modesto, CA." />
+  <meta name="description" content="Bus Stop Beer Garden — A small beer garden with a big heart, and a lot of plants. Modesto, CA." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -33,29 +34,8 @@ const navLinks = [
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <a href={base || '/'} class="flex items-center gap-3 group">
-          <!-- SVG Bus Logo -->
-          <svg width="48" height="28" viewBox="0 0 48 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <!-- Bus body -->
-            <rect x="2" y="4" width="40" height="18" rx="3" fill="#FCC200"/>
-            <!-- Front cab -->
-            <rect x="38" y="6" width="7" height="12" rx="2" fill="#FCC200"/>
-            <!-- Windows -->
-            <rect x="6" y="7" width="7" height="6" rx="1" fill="#2D5016"/>
-            <rect x="16" y="7" width="7" height="6" rx="1" fill="#2D5016"/>
-            <rect x="26" y="7" width="7" height="6" rx="1" fill="#2D5016"/>
-            <!-- Front window -->
-            <rect x="40" y="8" width="4" height="5" rx="1" fill="#2D5016"/>
-            <!-- Door -->
-            <rect x="34" y="14" width="4" height="7" rx="1" fill="#2D5016"/>
-            <!-- Wheels -->
-            <circle cx="10" cy="23" r="4" fill="#2D5016"/>
-            <circle cx="10" cy="23" r="2" fill="#FCC200"/>
-            <circle cx="34" cy="23" r="4" fill="#2D5016"/>
-            <circle cx="34" cy="23" r="2" fill="#FCC200"/>
-            <!-- Bumper -->
-            <rect x="2" y="21" width="5" height="3" rx="1" fill="#2D5016"/>
-          </svg>
-          <span class="text-[#FCC200] font-bold text-lg leading-tight hidden sm:block group-hover:text-yellow-300 transition-colors">
+          <!-- Text wordmark — placeholder until final logo -->
+          <span class="text-[#FCC200] font-bold text-lg leading-tight group-hover:text-yellow-300 transition-colors">
             Bus Stop<br/><span class="text-sm font-normal">Beer Garden</span>
           </span>
         </a>
@@ -116,7 +96,7 @@ const navLinks = [
         <!-- Brand -->
         <div>
           <h3 class="font-bold text-xl mb-2">Bus Stop Beer Garden</h3>
-          <p class="text-yellow-200/80 text-sm">Cold Beer. Fresh Plants. Good Vibes.</p>
+          <p class="text-yellow-200/80 text-sm">A small beer garden with a big heart, and a lot of plants</p>
           <p class="text-yellow-200/80 text-sm mt-1">Modesto, CA</p>
         </div>
 

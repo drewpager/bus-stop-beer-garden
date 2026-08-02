@@ -26,17 +26,18 @@ const navCards = [
     icon: '🌵',
   },
   {
-    href: `${base}/events`,
-    title: 'Events',
+    href: `${base}/happenings`,
+    title: 'Happenings',
     desc: 'Trivia nights, live music, plant swaps, and more.',
     icon: '🎉',
   },
-  {
-    href: `${base}/charter`,
-    title: 'Charter',
-    desc: 'Rent the bus for your private party or special event.',
-    icon: '🚌',
-  },
+  // Charter paused — restore when bus rentals resume
+  // {
+  //   href: `${base}/charter`,
+  //   title: 'Charter',
+  //   desc: 'Rent the bus for your private party or special event.',
+  //   icon: '🚌',
+  // },
   {
     href: `${base}/contact`,
     title: 'Contact',
@@ -75,7 +76,7 @@ const navCards = [
         Bus Stop<br/>Beer Garden
       </h1>
       <p class="text-yellow-200 text-xl sm:text-2xl mb-10 font-light tracking-wide">
-        Cold Beer. Fresh Plants. Good Vibes.
+        A small beer garden with a big heart, and a lot of plants
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a
@@ -84,12 +85,14 @@ const navCards = [
         >
           View Menu
         </a>
+        {/* Charter paused — restore when bus rentals resume
         <a
           href={`${base}/charter`}
           class="border-2 border-[#FCC200] text-[#FCC200] font-bold px-8 py-4 rounded-lg text-lg hover:bg-[#FCC200] hover:text-[#2D5016] transition-colors"
         >
           Rent the Bus
         </a>
+        */}
       </div>
     </div>
 
@@ -185,7 +188,7 @@ const navCards = [
     </section>
   )}
 
-  <!-- Page Cards -->
+  {/* Page Cards — "Everything at the Stop" paused, restore if the homepage needs a directory again
   <section class="max-w-7xl mx-auto px-4 py-20">
     <h2 class="text-3xl sm:text-4xl font-bold text-[#2D5016] mb-10 text-center">Everything at the Stop</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -201,12 +204,13 @@ const navCards = [
       ))}
     </div>
   </section>
+  */}
 
   <!-- Instagram -->
-  <section class="bg-[#2D5016] py-20 px-4">
+  <section class="bg-white py-20 px-4">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-[#FCC200] mb-3">Follow Along</h2>
-      <p class="text-yellow-200/80 text-lg mb-10">Cold pours, fresh plants, good people. See what's happening at the Stop.</p>
+      <h2 class="text-3xl font-bold text-[#2D5016] mb-3">Follow Along</h2>
+      <p class="text-gray-600 text-lg mb-10">Cold pours, fresh plants, good people. See what's happening at the Stop.</p>
 
       <behold-widget feed-id="9vA1qFLP49kN1zAsBvjc"></behold-widget>
       <script is:inline>

@@ -11,15 +11,14 @@ function formatDate(dateStr: string) {
 }
 ---
 
-<Layout title="Events">
+<Layout title="Happenings">
   <div class="bg-[#2D5016] py-16 px-4 text-center">
-    <h1 class="text-[#FCC200] text-5xl font-extrabold mb-3">Events</h1>
-    <p class="text-yellow-200/80 text-lg max-w-xl mx-auto">Live music, trivia, plant swaps, and more. Something's always happening at the Stop.</p>
+    <h1 class="text-[#FCC200] text-5xl font-extrabold">Happenings</h1>
   </div>
 
   <section class="max-w-4xl mx-auto px-4 py-16">
     {events.length === 0 ? (
-      <p class="text-center text-gray-500">No upcoming events. Check back soon!</p>
+      <p class="text-center text-gray-500">No upcoming happenings. Check back soon!</p>
     ) : (
       <div class="space-y-6">
         {events.map(event => (
@@ -55,6 +54,6 @@ function formatDate(dateStr: string) {
   </section>
 
   <div class="max-w-4xl mx-auto px-4 pb-16 text-center">
-    <p class="text-gray-500 text-sm">Events are free unless noted. Follow <a href="https://instagram.com/beerbusstop" target="_blank" rel="noopener noreferrer" class="text-[#2D5016] hover:underline">@beerbusstop</a> for the latest updates.</p>
+    <p class="text-gray-500 text-sm">Happenings are free unless noted. Follow <a href="https://instagram.com/beerbusstop" target="_blank" rel="noopener noreferrer" class="text-[#2D5016] hover:underline">@beerbusstop</a> for the latest updates.</p>
   </div>
 </Layout>
