@@ -3,7 +3,10 @@ interface Props {
   title: string;
 }
 const { title } = Astro.props;
-const base = import.meta.env.BASE_URL;
+// Trailing slash stripped so `${base}/menu` can't become `//menu`, which a
+// browser reads as a protocol-relative URL (https://menu). BASE_URL is "/"
+// when the site serves from a domain root.
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const navLinks = [
   { href: `${base}/menu`, label: 'Menu' },

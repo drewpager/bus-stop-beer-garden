@@ -15,13 +15,11 @@ Changes appear on the live site about a minute later.
 | Plants           | The gardens page                  | `src/content/plants/` |
 | Stops / Location | Address, hours, phone on homepage | `src/content/stops/`  |
 
-> **Custom domain in progress.** The URLs here assume the site is serving from
-> `www.beerbusstop.com`. That requires two changes beyond the DNS and GitHub
-> Pages settings: a `public/CNAME` file containing `www.beerbusstop.com`, and
-> `astro.config.mjs` updated to `site: 'https://www.beerbusstop.com'` with
-> `base: '/'`. Until `base` changes, every path below still needs the
-> `/bus-stop-beer-garden` prefix — so `/bus-stop-beer-garden/admin/`, not
-> `/admin/`.
+> **Custom domain.** The repo is configured to serve from
+> `www.beerbusstop.com`: `public/CNAME` holds the domain, and
+> `astro.config.mjs` sets `site: 'https://www.beerbusstop.com'` and `base: '/'`.
+> What's left is outside this repo — pointing DNS at GitHub Pages and setting
+> the custom domain in the repo's *Settings → Pages*. See "DNS" at the bottom.
 
 ## One-time setup: "Sign in with GitHub"
 
@@ -108,3 +106,30 @@ back on is one click when the keg returns.
 **Menu ordering.** *Sort order* controls position, lowest first; beers sharing a
 number are sorted alphabetically. Leaving everything at `0` keeps the whole list
 alphabetical.
+
+## DNS
+
+The domain's nameservers are delegated to **Cloudflare**
+(`dahlia.ns.cloudflare.com`, `hugh.ns.cloudflare.com`), so records must be
+created in the Cloudflare dashboard for the `beerbusstop.com` zone. Records
+entered at the registrar are ignored while that delegation is in place.
+
+| Type  | Name | Value                                                            |
+| ----- | ---- | ---------------------------------------------------------------- |
+| A     | `@`  | `185.199.108.153`                                                  |
+| A     | `@`  | `185.199.109.153`                                                  |
+| A     | `@`  | `185.199.110.153`                                                  |
+| A     | `@`  | `185.199.111.153`                                                  |
+| CNAME | `www`| `drewpager.github.io`                                              |
+
+Set both `@` and `www` to **DNS only** (grey cloud), not proxied. With the
+Cloudflare proxy on, Cloudflare terminates TLS itself and GitHub can't complete
+the certificate challenge — "Enforce HTTPS" stays greyed out. The proxy can be
+switched on later, once GitHub has issued the certificate.
+
+Then in the repo's *Settings → Pages*, set the custom domain to
+`www.beerbusstop.com` and enable **Enforce HTTPS** once the cert provisions.
+
+Leave the `4r23mwv3pi7r` CNAME alone — it's a Google domain-verification record.
+There are no MX records, so `@beerbusstop.com` email won't work until some are
+added; the site's contact address is a Gmail account.
