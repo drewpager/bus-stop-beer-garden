@@ -4,6 +4,7 @@ style: Kettle Sour
 size: 12 oz
 abv: 5.5
 price: 7
+available: false
 order: 8
 ---
 
