@@ -57,15 +57,12 @@ const stops = await getCollection('stops');
             <div>
               <h3 class="text-lg font-bold text-[#2D5016] mb-4">Hours</h3>
               <div class="bg-[#2D5016]/5 rounded-xl p-4 space-y-2">
-                {stop.data.hours.split(', ').map((line: string) => {
-                  const [days, hours] = line.split(' ');
-                  return (
-                    <div class="flex justify-between text-sm">
-                      <span class="font-medium text-[#2D5016]">{days}</span>
-                      <span class="text-gray-700">{hours}</span>
-                    </div>
-                  );
-                })}
+                {stop.data.hours.map((row) => (
+                  <div class="flex justify-between gap-4 text-sm">
+                    <span class="font-medium text-[#2D5016]">{row.days}</span>
+                    <span class="text-gray-700">{row.time}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

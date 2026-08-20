@@ -42,7 +42,8 @@ const stops = defineCollection({
   schema: z.object({
     name: z.string(),
     address: z.string(),
-    hours: z.string(),
+    // One row per line in the hours table, in display order.
+    hours: z.array(z.object({ days: z.string(), time: z.string() })),
     phone: z.string(),
     email: z.string(),
     description: z.string(),

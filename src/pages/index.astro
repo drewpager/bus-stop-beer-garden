@@ -159,9 +159,14 @@ const navCards = [
           </div>
           <div>
             <h3 class="font-semibold text-lg mb-2 text-yellow-200">Hours</h3>
-            <p class="text-yellow-100/80 whitespace-pre-line">
-              {mainStop.data.hours.split(', ').join('\n')}
-            </p>
+            <dl class="text-yellow-100/80 space-y-0.5">
+              {mainStop.data.hours.map((row) => (
+                <div class="flex justify-between gap-4">
+                  <dt>{row.days}</dt>
+                  <dd>{row.time}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
         </div>
         <a href={`${base}/stops`} class="inline-block mt-8 bg-[#FCC200] text-[#2D5016] font-bold px-6 py-3 rounded-lg hover:bg-yellow-300 transition-colors">
