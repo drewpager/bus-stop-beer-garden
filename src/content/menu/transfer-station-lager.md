@@ -1,11 +1,11 @@
 ---
-name: Transfer Station Lager
-style: American Lager
+name: Designer N.U.G.S - Fieldwork Brewing
+style: West Coast Pale Ale
 size: 16 oz
-abv: 4.2
-price: 5
+abv: 5
+price: 8
 available: true
 order: 7
 ---
 
-Crisp, clean, and crushable. The ultimate thirst quencher on a hot Valley day.
+If you sat through the D.A.R.E. program you'll enjoy this one!
