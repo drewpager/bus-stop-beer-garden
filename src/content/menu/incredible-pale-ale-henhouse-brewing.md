@@ -5,7 +5,7 @@ size: 160z
 abv: 6.9
 price: 8
 available: true
-order: 9
+order: 6
 ---
 
 West Coast IPA w/ Cascade, Simcoe, Mosaic, Belma, and Hallertau Blanc hops
