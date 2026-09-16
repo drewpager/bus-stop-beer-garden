@@ -4,7 +4,7 @@ style: German Pilsner
 size: 16 oz
 abv: 4.8
 price: 8
-available: false
+available: true
 order: 8
 ---
 
