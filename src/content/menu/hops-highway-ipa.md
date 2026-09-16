@@ -5,7 +5,7 @@ size: 16 oz
 abv: 5
 price: 8
 available: true
-order: 4
+order: 7
 ---
 
 Pink lemonade seltzer made with dragon fruit, yuzu and lemon
