@@ -1,11 +1,11 @@
 ---
-name: Yellow Brick Sour
-style: Kettle Sour
-size: 12 oz
-abv: 5.5
-price: 7
+name: Pils - Faction Brewing
+style: German Pilsner
+size: 16 oz
+abv: 4.8
+price: 8
 available: false
 order: 8
 ---
 
-Tart and fruity with a burst of passion fruit and lemon. Dangerously drinkable.
+Crisp and clean finish with biscuity, grainy malts and a floral, herbal hop aroma
