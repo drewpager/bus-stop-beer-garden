@@ -5,7 +5,7 @@ size: 16 oz
 abv: 5
 price: 8
 available: true
-order: 1
+order: 3
 ---
 
 A  boysenberry and vanilla sorbet style seltzer unlike any other.
