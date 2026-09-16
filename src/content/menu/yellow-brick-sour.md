@@ -5,7 +5,7 @@ size: 16 oz
 abv: 4.8
 price: 8
 available: true
-order: 8
+order: 10
 ---
 
 Crisp and clean finish with biscuity, grainy malts and a floral, herbal hop aroma
