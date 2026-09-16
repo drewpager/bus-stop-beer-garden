@@ -5,7 +5,7 @@ size: 16 0z
 abv: 6.8
 price: 8
 available: true
-order: 1
+order: 10
 ---
 
 West Coast style IPA features a timeless American hop profile of citrus and pine with a crisp balanced finish.
