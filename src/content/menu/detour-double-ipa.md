@@ -1,11 +1,11 @@
 ---
-name: Garrett Double IPA
-style: Double IPA
-size: 12 oz
-abv: 8.4
-price: 9
+name: Swami's IPA - Pizza Port Brewing
+style: West Coast IPA
+size: 16 0z
+abv: 6.8
+price: 8
 available: true
 order: 1
 ---
 
-Big, bold, and resinous. A hop bomb for the adventurous drinker.
+West Coast style IPA features a timeless American hop profile of citrus and pine with a crisp balanced finish.
