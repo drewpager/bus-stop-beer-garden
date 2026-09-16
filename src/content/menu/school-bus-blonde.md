@@ -5,7 +5,7 @@ size: 16 oz
 abv: 4.6
 price: 7
 available: true
-order: 7
+order: 9
 ---
 
 A crisp, refreshing classic American-style light lager
