@@ -1,11 +1,11 @@
 ---
-name: Midnight Route Stout
-style: Dry Irish Stout
+name: Beach Snack -  Altamont Brewing
+style: Japanese Rice Lager
 size: 16 oz
-abv: 4.8
+abv: 41
 price: 7
 available: true
 order: 5
 ---
 
-Dark, roasty, and velvety smooth with hints of coffee and chocolate.
+Featuring classic flavors of jasmine rice with a clean, crispy, and refreshingly dry finish
