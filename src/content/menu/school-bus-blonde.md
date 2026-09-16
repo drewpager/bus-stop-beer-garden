@@ -1,11 +1,11 @@
 ---
-name: School Bus Blonde
-style: American Blonde Ale
+name: Snap Shot - Morgan Territory Brewing
+style: American Lager
 size: 16 oz
-abv: 4.5
-price: 6
+abv: 4.6
+price: 7
 available: true
-order: 6
+order: 7
 ---
 
-Light and easy-drinking with a smooth malt character. Perfect for a sunny afternoon.
+A crisp, refreshing classic American-style light lager
