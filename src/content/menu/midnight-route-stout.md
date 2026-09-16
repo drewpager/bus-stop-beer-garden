@@ -2,7 +2,7 @@
 name: Beach Snack -  Altamont Brewing
 style: Japanese Rice Lager
 size: 16 oz
-abv: 41
+abv: 4.1
 price: 7
 available: true
 order: 5
