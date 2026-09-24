@@ -1,11 +1,11 @@
 ---
-name: Beach Snack -  Altamont Brewing
-style: Japanese Rice Lager
+name: Ultra -  Michelob
+style: American Light Lager
 size: 16 oz
-abv: 4.1
-price: 7
+abv: 42
+price: 6
 available: true
 order: 1
 ---
 
-Featuring classic flavors of jasmine rice with a clean, crispy, and refreshingly dry finish
+For the person that isn't into craft
