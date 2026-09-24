@@ -1,11 +1,11 @@
 ---
-name: Incredible Pale Ale - HenHouse Brewing
-style: West Coast IPA
-size: 160z
-abv: 6.9
-price: 8
+name: Belgian Wit - Track 424
+style: Belgian Witbier
+size: 16oz
+abv: 4.7
+price: 7
 available: true
 order: 6
 ---
 
-West Coast IPA w/ Cascade, Simcoe, Mosaic, Belma, and Hallertau Blanc hops
+Belgian style witbier brewed right here in Modesto by Track 424
