@@ -1,11 +1,11 @@
 ---
-name: Pils - Faction Brewing
-style: German Pilsner
+name: Hills & Valleys - Fieldwork Brewing Co.
+style: American Pilsner
 size: 16 oz
-abv: 4.8
+abv: 5
 price: 8
 available: true
 order: 8
 ---
 
-Crisp and clean finish with biscuity, grainy malts and a floral, herbal hop aroma
+American style pilsner
