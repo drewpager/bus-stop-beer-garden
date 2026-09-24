@@ -5,7 +5,7 @@ size: 16 oz
 abv: 5
 price: 8
 available: true
-order: 8
+order: 1
 ---
 
 American style pilsner
