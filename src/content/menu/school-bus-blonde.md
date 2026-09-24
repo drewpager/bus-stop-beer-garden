@@ -1,11 +1,11 @@
 ---
-name: Snap Shot - Morgan Territory Brewing
+name: Glorius Raspberry Lemonade Sour - Morgan Territory Brewing
 style: American Lager
 size: 16 oz
-abv: 4.6
-price: 7
+abv: 6
+price: 8
 available: true
 order: 9
 ---
 
-A crisp, refreshing classic American-style light lager
+This sour beer truly lives up to its name
