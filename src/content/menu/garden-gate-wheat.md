@@ -1,11 +1,11 @@
 ---
-name: Cali Squeeze - Firestone Walker
-style: American Wheat Beer
+name: Maui Waui - Altamont Beer Works
+style: Tropical IPA
 size: 16 oz
-abv: 5
-price: 7
+abv: 6.5
+price: 8
 available: true
 order: 6
 ---
 
-Brewed with real blood orange for maximum refreshment. A crisp beer with juicy orange flavors and fresh citrus flavors
+Maui Waui is a staple tropical IPA from Altamont Beer Works
