@@ -1,8 +1,8 @@
 ---
-name: Cali Squeeze - Firestone Walker Brewing
-style: Blood Orange Hefeweizen
+name: Lush IPA - Fremont Brewing
+style: American IPA
 size: 16 oz
-abv: 5
+abv: 7
 price: 7
 available: true
 order: 5
