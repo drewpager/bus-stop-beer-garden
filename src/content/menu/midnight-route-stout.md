@@ -1,11 +1,9 @@
 ---
-name: Ultra -  Michelob
-style: American Light Lager
+name: Snapshot -  Morgan Territory
+style: American Lager
 size: 16 oz
-abv: 4.2
-price: 6
+abv: 4.6
+price: 7
 available: true
 order: 8
 ---
-
-For the person that isn't into craft
