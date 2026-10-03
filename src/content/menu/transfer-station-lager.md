@@ -1,8 +1,8 @@
 ---
-name: Bright Track - Track 424
+name: Pulp - Fieldwork Brewing
 style: Hazy IPA
 size: 16 oz
-abv: 6
+abv: 6.9
 price: 8
 available: true
 order: 4
