@@ -1,5 +1,5 @@
 ---
-name: Maiden & Priest
+name: Maiden & Priest - Fieldwork Brewing
 style: Black Lager/Schwarzbier
 size: 16 oz
 abv: 5.5
