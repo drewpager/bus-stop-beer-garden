@@ -1,11 +1,9 @@
 ---
-name: Glorius Raspberry Lemonade Sour - Morgan Territory Brewing
-style: American Lager
+name: Maiden & Priest
+style: Black Lager/Schwarzbier
 size: 16 oz
-abv: 6
+abv: 5.5
 price: 8
 available: true
 order: 9
 ---
-
-This sour beer truly lives up to its name
