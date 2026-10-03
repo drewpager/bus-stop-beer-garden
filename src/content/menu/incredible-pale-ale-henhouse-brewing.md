@@ -1,9 +1,9 @@
 ---
-name: Belgian Wit - Track 424
-style: Belgian Witbier
+name: Orchid Lager - Black Orchid Brewing
+style: Marzen Oktoberfest Lager
 size: 16oz
-abv: 4.7
-price: 7
+abv: 5.6
+price: 8
 available: true
 order: 2
 ---
