@@ -1,5 +1,5 @@
 ---
-name: Pulp - Fieldwork Brewing
+name: Pulp - Fieldwork Brewing Co.
 style: Hazy IPA
 size: 16 oz
 abv: 6.9
