@@ -1,11 +1,11 @@
 ---
-name: Clear Skies - Fieldwork Brewing Co.
-style: West Coast IPA
+name: Perfecto - Fieldwork Brewing Co.
+style: American IPA
 size: 16 0z
-abv: 6.8
+abv: 7
 price: 8
 available: true
 order: 10
 ---
 
-West Coast style IPA
+Some say it's perfect. Nom nom!
