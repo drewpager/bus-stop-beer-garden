@@ -1,8 +1,8 @@
 ---
-name: Maui Waui - Altamont Beer Works
-style: Tropical IPA
+name: Henhouse IPA - Henhouse Brewing
+style: American IPA
 size: 16 oz
-abv: 6.5
+abv: 6.9
 price: 8
 available: true
 order: 6
