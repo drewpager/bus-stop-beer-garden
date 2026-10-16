@@ -1,11 +1,11 @@
 ---
-name: Perfecto - Fieldwork Brewing Co.
-style: American IPA
+name: Revision IPA - Revision Brewing
+style: IPA
 size: 16 0z
-abv: 7
+abv: 6.5
 price: 8
 available: true
 order: 10
 ---
 
-Some say it's perfect. Nom nom!
+Rolling in fresh from Reno Nevada. Nom nom!
