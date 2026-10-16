@@ -1,11 +1,11 @@
 ---
-name: Pulp - Fieldwork Brewing Co.
+name: Critical Excess - Fieldwork Brewing Co.
 style: Hazy IPA
 size: 16 oz
-abv: 6.9
+abv: 6.7
 price: 8
 available: true
 order: 4
 ---
 
-Track 424's flagship Hazy IPA brewed right here in Modesto!
+Delicious Hazzzy! Nom nom!
