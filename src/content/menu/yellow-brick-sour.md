@@ -1,5 +1,5 @@
 ---
-name: Designer N.U.G.S.
+name: Designer N.U.G.S. - Fieldwork Brewing Co
 style: West Coast Pale Ale
 size: 16 oz
 abv: 5
