@@ -4,7 +4,7 @@ style: Japanese Rice Lager
 size: 16 oz
 abv: 4.1
 price: 7
-available: true
+available: false
 order: 8
 ---
 
