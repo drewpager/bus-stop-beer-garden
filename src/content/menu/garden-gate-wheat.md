@@ -1,6 +1,6 @@
 ---
 name: Henhouse IPA - Henhouse Brewing
-style: American IPA
+style: West Coast American IPA
 size: 16 oz
 abv: 6.9
 price: 8
