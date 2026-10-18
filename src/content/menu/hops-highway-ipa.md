@@ -1,11 +1,11 @@
 ---
-name: Hello Sunshine - Crow & Wolf Brewing
+name: Waui Water - Altamont Beer Works
 style: Craft Hard Seltzer
 size: 16 oz
-abv: 5
+abv: 5.5
 price: 8
 available: true
 order: 7
 ---
 
-Watermelon Lime Seltzer nom nom
+Lemon berry tides seltzer nom nom
