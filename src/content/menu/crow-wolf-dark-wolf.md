@@ -4,8 +4,8 @@ style: Sorbet Seltzer
 size: 16 oz
 abv: 5
 price: 8
-available: true
+available: false
 order: 3
 ---
 
-A  boysenberry and vanilla sorbet style seltzer unlike any other.
+A  boysenberry and vanilla sorbet style seltzer unlike any other. Back next week
