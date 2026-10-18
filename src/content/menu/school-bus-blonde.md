@@ -1,9 +1,11 @@
 ---
-name: Maiden & Priest - Fieldwork Brewing Co
-style: Black Lager/Schwarzbier
+name: Snapshot - Morgan Territory Brewing
+style: American Lager
 size: 16 oz
-abv: 5.5
-price: 8
+abv: 4.6
+price: 7
 available: true
 order: 9
 ---
+
+Post prohibition style American lager nom nom
