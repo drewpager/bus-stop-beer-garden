@@ -1,11 +1,11 @@
 ---
-name: Cali Squeeze - Firestone Walker Brewing
-style: Fruit Wheat Beer
+name: Chronic Ale - Pizza Port Brewing
+style: Amber Ale
 size: 16oz
-abv: 5
+abv: 4.9
 price: 7
 available: true
 order: 2
 ---
 
-Crowd Pleaser!! nom nom
+A San Diego classic! Nom nom
