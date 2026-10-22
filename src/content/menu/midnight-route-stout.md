@@ -1,10 +1,10 @@
 ---
-name: Secret Menu Beer
-style: shhhhhhhh
+name: Beach Snack - Altamont Beer Works
+style: Japanese Rice Lager
 size: 16 oz
-abv: 7
-price: 9
-available: false
+abv: 4.1
+price: 7
+available: true
 order: 8
 ---
 
