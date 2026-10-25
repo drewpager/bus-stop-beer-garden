@@ -1,11 +1,11 @@
 ---
-name: Revision IPA - Revision Brewing
-style: IPA
+name: Glorious Mango Lime - Morgan Territory Brewing
+style: Kettle Sour
 size: 16 0z
-abv: 6.5
+abv: 6
 price: 8
 available: true
 order: 10
 ---
 
-Rolling in fresh from Reno Nevada. Nom nom!
+A kettle sour that hits tha spot! nom nom
