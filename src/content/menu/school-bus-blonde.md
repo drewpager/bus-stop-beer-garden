@@ -1,11 +1,11 @@
 ---
-name: Snapshot - Morgan Territory Brewing
-style: American Lager
+name: PILS - Faction Brewing
+style: German Pilsner
 size: 16 oz
-abv: 4.6
-price: 7
+abv: 4.8
+price: 8
 available: true
 order: 9
 ---
 
-Post prohibition style American lager nom nom
+German Pilsner nom nom
