@@ -1,11 +1,11 @@
 ---
-name: Chronic Ale - Pizza Port Brewing
-style: Amber Ale
+name: Waui Wax - Altamont Beer Works
+style: Tropical American IPA
 size: 16oz
-abv: 4.9
-price: 7
+abv: 6.5
+price: 8
 available: true
 order: 2
 ---
 
-A San Diego classic! Nom nom
+Tropical wave with a little bite Nom nom
