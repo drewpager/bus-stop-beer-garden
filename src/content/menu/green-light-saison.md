@@ -1,8 +1,8 @@
 ---
-name: UBAHDANK - New Glory Brewing
+name: Norcal Vibes - Morgan Territory Brewing
 style: West Coast IPA
 size: 16 oz
-abv: 7
+abv: 6.8
 price: 8
 available: true
 order: 5
