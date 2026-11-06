@@ -1,8 +1,8 @@
 ---
-name: Beach Snack - Altamont Beer Works
-style: Japanese Rice Lager
+name: Snap Shot - Morgan Territory Brewing
+style: American Lager
 size: 16 oz
-abv: 4.1
+abv: 4.6
 price: 7
 available: true
 order: 8
