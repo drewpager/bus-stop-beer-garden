@@ -1,6 +1,6 @@
 ---
-name: Norcal Vibes - Morgan Territory Brewing
-style: West Coast IPA
+name: Floating Islands - Fieldwork Brewing co.
+style: Hazy IPA
 size: 16 oz
 abv: 6.8
 price: 8
