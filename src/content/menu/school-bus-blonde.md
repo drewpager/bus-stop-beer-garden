@@ -1,11 +1,11 @@
 ---
-name: PILS - Faction Brewing
-style: German Pilsner
+name: Lobo - Crow & Wolf Brewing
+style: Mexican Lager
 size: 16 oz
-abv: 4.8
-price: 8
+abv: 5
+price: 7
 available: true
 order: 9
 ---
 
-German Pilsner nom nom
+Crispy Mexican lager! Come and get it nom nom
