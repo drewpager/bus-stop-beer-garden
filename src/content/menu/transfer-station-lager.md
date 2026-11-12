@@ -8,4 +8,4 @@ available: true
 order: 4
 ---
 
-Delicious Hazzzy from here in Modesto! Nom nom!
+Fruity crowd favorite! Nom nom!
