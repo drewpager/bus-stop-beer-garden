@@ -1,9 +1,9 @@
 ---
-name: Bright Track - Track 424
-style: Hazy IPA
+name: Cali Squeeze - Firestone Walker Brewing
+style: Fruited Wheat Beer
 size: 16 oz
-abv: 6
-price: 8
+abv: 5
+price: 7
 available: true
 order: 4
 ---
