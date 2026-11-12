@@ -1,11 +1,11 @@
 ---
-name: Designer N.U.G.S. - Fieldwork Brewing Co
-style: West Coast Pale Ale
+name: Darkstar - Fremont Brewing
+style: Imperial Oatmeal Stout
 size: 16 oz
-abv: 5
+abv: 8
 price: 8
 available: true
 order: 1
 ---
 
-If you sat through the D.A.R.E program, you'll enjoy this one! Nom nom!
+Dark and delicious! Nom nom!
