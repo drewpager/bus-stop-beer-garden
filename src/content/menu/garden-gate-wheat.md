@@ -1,8 +1,8 @@
 ---
-name: Dog Years IPA -  Bike Dog Brewing
-style: American IPA
+name: Motorboatin' -  Morgan Territory Brewing
+style: West Coast IPA
 size: 16 oz
-abv: 7
+abv: 7.2
 price: 8
 available: true
 order: 6
