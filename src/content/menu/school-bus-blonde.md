@@ -1,8 +1,8 @@
 ---
-name: Lobo - Crow & Wolf Brewing
+name: Cerevza Murrieta - Altamont Beer Works
 style: Mexican Lager
 size: 16 oz
-abv: 5
+abv: 4.7
 price: 7
 available: true
 order: 9
