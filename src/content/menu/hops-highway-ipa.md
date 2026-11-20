@@ -1,5 +1,5 @@
 ---
-name: Waui Water - Altamont Beer Works
+name: Waui Water Island Nectar - Altamont Beer Works
 style: Craft Hard Seltzer
 size: 16 oz
 abv: 5.5
@@ -8,4 +8,4 @@ available: true
 order: 7
 ---
 
-Lemon berry tides seltzer nom nom
+Passionfruit orange guava seltzer nom nom
